@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>grid</title>
     <style>
+        
         .parent{ 
             width: 100vw;
             height: 100vh;
@@ -25,10 +26,21 @@
             grid-area: SB;
             background-color: crimson;
         }
+
+    .content{ grid-area: C; 
+        background-color: blueviolet;
+
+    }
+
+    .footer{ 
+        grid-area: F;
+        background-color: chartreuse;
+
+    }
     </style>
 </head>
 <body>
-    <div class="Parent">
+    <div class="parent">
         <div class="header">HEADER</div>
         <div class="sidebar">SIDEBAR</div>
         <div class="content">CONTENT</div>
